@@ -12,7 +12,7 @@ def connect_mqtt():
             print("Failed to connect, return code %d\n", rc)
     # Set Connecting Client ID
     client = mqtt_client.Client("Abdul")
-    client.username_pw_set('ubantu011', 'aio_SPty27QhHlBqCcvaatexm3S6sUUw')
+    client.username_pw_set('ubantu011', 'N/A')
     client.on_connect = on_connect
     client.connect('io.adafruit.com', 1883)
 
